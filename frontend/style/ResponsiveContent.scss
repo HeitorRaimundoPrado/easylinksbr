@@ -1,0 +1,47 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .main_form {
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            div {
+                display: flex;
+                justify-content: space-between;
+                .form_input_text {
+                    width: 70%;
+                }
+    
+                .form_input_submit {
+                    width: 30%;
+                    margin: 0px 0px 0px 50px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1024px) {
+    .main_form {
+        div {
+            width: 60%;
+        }
+        form {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            div {
+                display: flex;
+                justify-content: space-between;
+                .form_input_text {
+                    width: 70%;
+                }
+    
+                .form_input_submit {
+                    width: 30%;
+                    margin: 0px 0px 0px 50px;
+                }
+            }
+        }
+    }
+}
+

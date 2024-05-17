@@ -1,0 +1,42 @@
+@use './var';
+
+.main_section {
+    width: 100%;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    background-color: var.$white;
+    height: fit-content;
+    padding-bottom: 150px;
+    h1 {
+        text-align: center;
+        position: relative;
+        color: var.$title-gray;
+    }
+
+    .responsive_container {
+        .main_info_container {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .icon {
+                font-size: 4em;
+                color: var.$blue;
+                margin: 70px 0px 0px 0px;
+            }
+            div  {
+                width: 65%;
+                margin: 70px 0px 0px 0px;
+                h2 {
+                    margin-bottom: 15px;
+                    font-weight: bold;
+                    color: var.$subtitle-gray;
+                }
+                p {
+                    text-align: justify;
+                    color: var.$subtitle-gray;
+                }
+            }
+        }
+    }
+}

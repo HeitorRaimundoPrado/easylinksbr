@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .inspect_url {  
+        h2 {
+            margin: 0px 0px 10px 18%;
+        }
+        form {
+            width: 80%;
+        }
+    } 
+}
+@media screen and (min-width: 1024px) {
+    .inspect_url {
+        h2 {
+            margin: 0px 0px 10px 26%;
+        }
+        form {
+            width: 60%;
+        }
+    } 
+}

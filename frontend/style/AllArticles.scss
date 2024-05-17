@@ -1,0 +1,36 @@
+.all-articles {
+  display: flex;
+  margin: 1rem;
+  margin-bottom: 2.4rem;
+
+  a {
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.3rem;
+  }
+
+  .tag-label {
+    margin-inline: 1rem;
+  }
+
+  .tag-container {
+    margin-block: 12px;
+  }
+
+  .tag {
+    border: 1px solid #ccc;
+    margin-inline: 5px;
+    border-radius: 8px;
+    padding: 5px;
+  }
+
+  .description {
+    color: #555;
+  }
+
+  .date-added {
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,69 @@
+@use "./var";
+
+.all_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+
+  div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    ul {
+      margin-top: 40px;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 50%;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-block: 5px;
+        
+        a {
+          margin-right: 5px;
+        }
+        
+        button {
+          margin-left: 15px;
+          background-color: var.$blue;
+          color: var.$white;
+          border: 1px solid #555;
+          border-radius: 5px;
+          padding: 5px;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    
+  }
+}
+
+.change_desc {
+  display: flex;
+  justify-content: space-between;
+  input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    margin-inline: 5px;
+  }
+  
+  button {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #333;
+    background-color: var.$blue;
+    color: var.$white;
+    padding: 5px;
+  }
+}
