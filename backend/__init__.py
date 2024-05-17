@@ -18,7 +18,8 @@ def create_app():
          )
 
     from flask_cors import CORS
-    CORS(app, supports_credentials=True, expose_headers="Authorization")
+    
+    CORS(app, origins=["http://localhost:5000", os.getenv('EASYLINKSBR_FRONTEND_DOMAIN')])
 
     import models
     
